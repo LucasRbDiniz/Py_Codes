@@ -1,0 +1,5 @@
+file = input("Nome do arquivo: ")
+abra = open(file)
+ler = abra.read()
+linhas = ler.rstrip()
+print(linhas.upper())
